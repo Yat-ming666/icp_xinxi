@@ -9,8 +9,8 @@ WEB_SCAN_OUTPUT="${ICP_DIR}/WebScan/output.txt"
 EXTRACTED_URLS="${ICP_DIR}/extracted_urls.txt"
 SCAN_TARGETS="${ICP_DIR}/masscan_targets.txt"
 MASSCAN_RESULTS="${ICP_DIR}/masscan_results.txt"
-PORT_RANGE="80,443,8080,8443,22,3389"
-SCAN_RATE="1000"
+PORT_RANGE="1-65535"
+SCAN_RATE="200"
 # 新增：dir.sh的绝对路径（与masscan_scan.sh同目录）
 DIR_SCRIPT="${ICP_DIR}/dir.sh"  # 关键：定义dir.sh路径
 

@@ -48,7 +48,7 @@ def get_target_file_input():
 def build_curl_command(resource_type, search_keyword, base_url="http://127.0.0.1:20000/query"):
     """修改：curl命令添加随机UA头"""
     encoded_keyword = urllib.parse.quote(search_keyword, safe='')
-    url = f"{base_url}/{resource_type}?search={encoded_keyword}"
+    url = f"{base_url}/{resource_type}?search={encoded_keyword}&pageSize=1000"
     random_ua = get_random_ua()  # 随机选一个UA
     # 新增 -A 参数指定UA头，--connect-timeout 增加连接超时（避免快速失败被识别）
     return f'curl -A "{random_ua}" --connect-timeout 10 --max-time 60 "{url}"'
