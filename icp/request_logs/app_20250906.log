@@ -1,0 +1,974 @@
+[19:54:41] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B0%8F%E7%B1%B3" --max-time 60
+[19:54:42] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[19:54:42] 有效list长度：0（app）
+[19:54:42] 提取统计：有效0个，无效0个（服务端可能并发异常）
+[19:54:42] 未提取到任何serviceName（app）
+[19:54:42] 提取完成，共1个serviceName
+[19:58:03] [目标：上海交通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[19:58:03] [目标：上海交通大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3341965, "mainLicence": "\u6caaICP\u590705052060\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u6caaICP\u590705052060\u53f7-8A", "serviceName": "\u4ea4\u6211\u529e", "serviceType": 6, "unitName": "\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66", "updateRecordTime": "2025-04-21 14:...
+[19:58:03] [目标：上海交通大学] 有效list长度：1
+[19:58:03] [目标：上海交通大学] 提取统计：有效1个，无效0个
+[19:58:03] [目标：上海交通大学] 提取完成，共1个serviceName（已追加到文件）
+[19:58:24] [目标：人力资源和社会保障部信息中心] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E5%92%8C%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C%E9%83%A8%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83" --max-time 60
+[19:58:24] [目标：人力资源和社会保障部信息中心] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3309934, "mainLicence": "\u4eacICP\u59072024046103\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u4eacICP\u59072024046103\u53f7-4A", "serviceName": "\u638c\u4e0a12333", "serviceType": 6, "unitName": "\u4eba\u529b\u8d44\u6e90\u548c\u793e\u4f1a\u4fdd\u969c\u90e8\u4fe1\u606...
+[19:58:24] [目标：人力资源和社会保障部信息中心] 有效list长度：1
+[19:58:24] [目标：人力资源和社会保障部信息中心] 提取统计：有效1个，无效0个
+[19:58:24] [目标：人力资源和社会保障部信息中心] 提取完成，共1个serviceName（已追加到文件）
+[19:58:45] [目标：安徽省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%AE%89%E5%BE%BD%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[19:58:45] [目标：安徽省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[19:58:45] [目标：安徽省教育厅] 有效list长度：0
+[19:58:45] [目标：安徽省教育厅] 提取统计：有效0个，无效0个
+[19:58:45] [目标：安徽省教育厅] 未提取到任何serviceName
+[19:58:45] [目标：安徽省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[19:59:06] [目标：四川省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[19:59:06] [目标：四川省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[19:59:06] [目标：四川省教育厅] 有效list长度：0
+[19:59:06] [目标：四川省教育厅] 提取统计：有效0个，无效0个
+[19:59:06] [目标：四川省教育厅] 未提取到任何serviceName
+[19:59:06] [目标：四川省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[19:59:27] [目标：浙江大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6" --max-time 60
+[19:59:28] [目标：浙江大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 2, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3585575, "mainLicence": "\u6d59ICP\u590705074421\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u6d59ICP\u590705074421\u53f7-29A", "serviceName": "\u6d59\u5927\u6821\u56ed\u5361", "serviceType": 6, "unitName": "\u6d59\u6c5f\u5927\u5b66", "updateRecordTime": "2024-05-22 09...
+[19:59:28] [目标：浙江大学] 有效list长度：3
+[19:59:28] [目标：浙江大学] 提取统计：有效3个，无效0个
+[19:59:28] [目标：浙江大学] 提取完成，共3个serviceName（已追加到文件）
+[19:59:49] [目标：广东省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[19:59:49] [目标：广东省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[19:59:49] [目标：广东省教育厅] 有效list长度：0
+[19:59:49] [目标：广东省教育厅] 提取统计：有效0个，无效0个
+[19:59:49] [目标：广东省教育厅] 未提取到任何serviceName
+[19:59:49] [目标：广东省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:00:11] [目标：江苏省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:00:13] [目标：江苏省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 1404592, "mainLicence": "\u82cfICP\u590710205850\u53f7", "natureName": "\u653f\u5e9c\u673a\u5173", "serviceLicence": "\u82cfICP\u590710205850\u53f7-12A", "serviceName": "\u6c5f\u82cf\u7701\u9ad8\u6821\u5b66\u751f\u98df\u5802\u76d1\u7ba1\u670d\u52a1\u5e73\u53f0", "serviceType": 6, "unitName": "\...
+[20:00:13] [目标：江苏省教育厅] 有效list长度：1
+[20:00:13] [目标：江苏省教育厅] 提取统计：有效1个，无效0个
+[20:00:13] [目标：江苏省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:00:33] [目标：山东省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:00:34] [目标：山东省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:00:34] [目标：山东省教育厅] 有效list长度：0
+[20:00:34] [目标：山东省教育厅] 提取统计：有效0个，无效0个
+[20:00:34] [目标：山东省教育厅] 未提取到任何serviceName
+[20:00:34] [目标：山东省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:00:54] [目标：同济大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:00:54] [目标：同济大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:00:54] [目标：同济大学] 有效list长度：0
+[20:00:54] [目标：同济大学] 提取统计：有效0个，无效0个
+[20:00:54] [目标：同济大学] 未提取到任何serviceName
+[20:00:54] [目标：同济大学] 提取完成，共1个serviceName（已追加到文件）
+[20:01:15] [目标：上海市网络与信息安全通报中心] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E9%80%9A%E6%8A%A5%E4%B8%AD%E5%BF%83" --max-time 60
+[20:01:16] [目标：上海市网络与信息安全通报中心] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:01:16] [目标：上海市网络与信息安全通报中心] 有效list长度：0
+[20:01:16] [目标：上海市网络与信息安全通报中心] 提取统计：有效0个，无效0个
+[20:01:16] [目标：上海市网络与信息安全通报中心] 未提取到任何serviceName
+[20:01:16] [目标：上海市网络与信息安全通报中心] 提取完成，共1个serviceName（已追加到文件）
+[20:01:41] [目标：清华大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:01:42] [目标：清华大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4153717, "mainLicence": "\u4eacICP\u590715006448\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u4eacICP\u590715006448\u53f7-54A", "serviceName": "\u6e05\u534e\u6821\u56ed\u5df4\u58eb", "serviceType": 6, "unitName": "\u6e05\u534e\u5927\u5b66", "updateRecordTime": "2024-03...
+[20:01:42] [目标：清华大学] 有效list长度：1
+[20:01:42] [目标：清华大学] 提取统计：有效1个，无效0个
+[20:01:42] [目标：清华大学] 提取完成，共1个serviceName（已追加到文件）
+[20:02:02] [目标：浙江省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:02:03] [目标：浙江省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:02:03] [目标：浙江省教育厅] 有效list长度：0
+[20:02:03] [目标：浙江省教育厅] 提取统计：有效0个，无效0个
+[20:02:03] [目标：浙江省教育厅] 未提取到任何serviceName
+[20:02:03] [目标：浙江省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:02:23] [目标：河北省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8C%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:02:23] [目标：河北省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:02:23] [目标：河北省教育厅] 有效list长度：0
+[20:02:23] [目标：河北省教育厅] 提取统计：有效0个，无效0个
+[20:02:23] [目标：河北省教育厅] 未提取到任何serviceName
+[20:02:23] [目标：河北省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:02:44] [目标：河南省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8D%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:02:44] [目标：河南省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:02:44] [目标：河南省教育厅] 有效list长度：0
+[20:02:44] [目标：河南省教育厅] 提取统计：有效0个，无效0个
+[20:02:44] [目标：河南省教育厅] 未提取到任何serviceName
+[20:02:44] [目标：河南省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:03:05] [目标：广西壮族自治区教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:03:05] [目标：广西壮族自治区教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:03:05] [目标：广西壮族自治区教育厅] 有效list长度：0
+[20:03:05] [目标：广西壮族自治区教育厅] 提取统计：有效0个，无效0个
+[20:03:05] [目标：广西壮族自治区教育厅] 未提取到任何serviceName
+[20:03:05] [目标：广西壮族自治区教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:03:25] [目标：武汉大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:03:26] [目标：武汉大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 1, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3450468, "mainLicence": "\u9102ICP\u590705003330\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9102ICP\u590705003330\u53f7-48A", "serviceName": "\u667a\u6167\u73de\u73c8", "serviceType": 6, "unitName": "\u6b66\u6c49\u5927\u5b66", "updateRecordTime": "2025-05-09 14:39:42...
+[20:03:26] [目标：武汉大学] 有效list长度：2
+[20:03:26] [目标：武汉大学] 提取统计：有效2个，无效0个
+[20:03:26] [目标：武汉大学] 提取完成，共2个serviceName（已追加到文件）
+[20:03:50] [目标：陕西省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%99%95%E8%A5%BF%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:03:50] [目标：陕西省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:03:50] [目标：陕西省教育厅] 有效list长度：0
+[20:03:50] [目标：陕西省教育厅] 提取统计：有效0个，无效0个
+[20:03:50] [目标：陕西省教育厅] 未提取到任何serviceName
+[20:03:50] [目标：陕西省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:04:11] [目标：湖南省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8D%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:04:11] [目标：湖南省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:04:11] [目标：湖南省教育厅] 有效list长度：0
+[20:04:11] [目标：湖南省教育厅] 提取统计：有效0个，无效0个
+[20:04:11] [目标：湖南省教育厅] 未提取到任何serviceName
+[20:04:11] [目标：湖南省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:04:32] [目标：福建省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:04:32] [目标：福建省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:04:32] [目标：福建省教育厅] 有效list长度：0
+[20:04:32] [目标：福建省教育厅] 提取统计：有效0个，无效0个
+[20:04:32] [目标：福建省教育厅] 未提取到任何serviceName
+[20:04:32] [目标：福建省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:04:53] [目标：兰州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:04:53] [目标：兰州大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4122860, "mainLicence": "\u9647ICP\u590710000336\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9647ICP\u590710000336\u53f7-9A", "serviceName": "\u5170\u5dde\u5927\u5b66", "serviceType": 6, "unitName": "\u5170\u5dde\u5927\u5b66", "updateRecordTime": "2025-06-09 17:24:40"...
+[20:04:53] [目标：兰州大学] 有效list长度：1
+[20:04:53] [目标：兰州大学] 提取统计：有效1个，无效0个
+[20:04:53] [目标：兰州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:05:14] [目标：四川大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:05:15] [目标：四川大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 1, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3909888, "mainLicence": "\u8700ICP\u590705006382\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u8700ICP\u590705006382\u53f7-8A", "serviceName": "\u5ddd\u5927\u901a", "serviceType": 6, "unitName": "\u56db\u5ddd\u5927\u5b66", "updateRecordTime": "2024-06-24 09:29:22"}, {"c...
+[20:05:15] [目标：四川大学] 有效list长度：2
+[20:05:15] [目标：四川大学] 提取统计：有效2个，无效0个
+[20:05:15] [目标：四川大学] 提取完成，共2个serviceName（已追加到文件）
+[20:05:36] [目标：电子科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:05:36] [目标：电子科技大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3801232, "mainLicence": "\u8700ICP\u590705006379\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u8700ICP\u590705006379\u53f7-13A", "serviceName": "E\u5b66\u793e\u533a", "serviceType": 6, "unitName": "\u7535\u5b50\u79d1\u6280\u5927\u5b66", "updateRecordTime": "2024-01-23 1...
+[20:05:36] [目标：电子科技大学] 有效list长度：1
+[20:05:36] [目标：电子科技大学] 提取统计：有效1个，无效0个
+[20:05:36] [目标：电子科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:05:57] [目标：上海市教育委员会] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%95%99%E8%82%B2%E5%A7%94%E5%91%98%E4%BC%9A" --max-time 60
+[20:05:57] [目标：上海市教育委员会] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:05:57] [目标：上海市教育委员会] 有效list长度：0
+[20:05:57] [目标：上海市教育委员会] 提取统计：有效0个，无效0个
+[20:05:57] [目标：上海市教育委员会] 未提取到任何serviceName
+[20:05:57] [目标：上海市教育委员会] 提取完成，共1个serviceName（已追加到文件）
+[20:06:18] [目标：武汉理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:06:18] [目标：武汉理工大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:06:18] [目标：武汉理工大学] 有效list长度：0
+[20:06:18] [目标：武汉理工大学] 提取统计：有效0个，无效0个
+[20:06:18] [目标：武汉理工大学] 未提取到任何serviceName
+[20:06:18] [目标：武汉理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:06:40] [目标：湖北省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:06:40] [目标：湖北省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:06:40] [目标：湖北省教育厅] 有效list长度：0
+[20:06:40] [目标：湖北省教育厅] 提取统计：有效0个，无效0个
+[20:06:40] [目标：湖北省教育厅] 未提取到任何serviceName
+[20:06:40] [目标：湖北省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:07:01] [目标：北京大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:07:02] [目标：北京大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 6, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4207561, "mainLicence": "\u4eacICP\u590705065075\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u4eacICP\u590705065075\u53f7-23A", "serviceName": "\u5317\u4eac\u5927\u5b66", "serviceType": 6, "unitName": "\u5317\u4eac\u5927\u5b66", "updateRecordTime": "2024-11-22 11:25:31...
+[20:07:02] [目标：北京大学] 有效list长度：7
+[20:07:02] [目标：北京大学] 提取统计：有效7个，无效0个
+[20:07:02] [目标：北京大学] 提取完成，共7个serviceName（已追加到文件）
+[20:07:23] [目标：中华人民共和国教育部] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%95%99%E8%82%B2%E9%83%A8" --max-time 60
+[20:07:24] [目标：中华人民共和国教育部] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 1, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3886462, "mainLicence": "\u4eacICP\u590710028400\u53f7", "natureName": "\u653f\u5e9c\u673a\u5173", "serviceLicence": "\u4eacICP\u590710028400\u53f7-5A", "serviceName": "\u4e2d\u56fd\u6559\u80b2\u53d1\u5e03", "serviceType": 6, "unitName": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u6559\u80b2\u...
+[20:07:24] [目标：中华人民共和国教育部] 有效list长度：2
+[20:07:24] [目标：中华人民共和国教育部] 提取统计：有效2个，无效0个
+[20:07:24] [目标：中华人民共和国教育部] 提取完成，共2个serviceName（已追加到文件）
+[20:07:45] [目标：复旦大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:07:45] [目标：复旦大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3716060, "mainLicence": "\u6caaICP\u590716018209\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u6caaICP\u590716018209\u53f7-28A", "serviceName": "\u590d\u65e6OA", "serviceType": 6, "unitName": "\u590d\u65e6\u5927\u5b66", "updateRecordTime": "2024-11-11 13:35:53"}], "navi...
+[20:07:45] [目标：复旦大学] 有效list长度：1
+[20:07:45] [目标：复旦大学] 提取统计：有效1个，无效0个
+[20:07:45] [目标：复旦大学] 提取完成，共1个serviceName（已追加到文件）
+[20:08:07] [目标：重庆市教育委员会] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%87%8D%E5%BA%86%E5%B8%82%E6%95%99%E8%82%B2%E5%A7%94%E5%91%98%E4%BC%9A" --max-time 60
+[20:08:07] [目标：重庆市教育委员会] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:08:07] [目标：重庆市教育委员会] 有效list长度：0
+[20:08:07] [目标：重庆市教育委员会] 提取统计：有效0个，无效0个
+[20:08:07] [目标：重庆市教育委员会] 未提取到任何serviceName
+[20:08:07] [目标：重庆市教育委员会] 提取完成，共1个serviceName（已追加到文件）
+[20:08:28] [目标：山东大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:08:29] [目标：山东大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 2, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4247452, "mainLicence": "\u9c81ICP\u590705001952\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9c81ICP\u590705001952\u53f7-29A", "serviceName": "\u5c71\u5927v\u5361\u901a", "serviceType": 6, "unitName": "\u5c71\u4e1c\u5927\u5b66", "updateRecordTime": "2025-09-02 09:16:5...
+[20:08:29] [目标：山东大学] 有效list长度：3
+[20:08:29] [目标：山东大学] 提取统计：有效3个，无效0个
+[20:08:29] [目标：山东大学] 提取完成，共3个serviceName（已追加到文件）
+[20:08:50] [目标：厦门大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:08:50] [目标：厦门大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:08:50] [目标：厦门大学] 有效list长度：0
+[20:08:50] [目标：厦门大学] 提取统计：有效0个，无效0个
+[20:08:50] [目标：厦门大学] 未提取到任何serviceName
+[20:08:50] [目标：厦门大学] 提取完成，共1个serviceName（已追加到文件）
+[20:09:11] [目标：中国科学技术大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:09:12] [目标：中国科学技术大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 2, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3913123, "mainLicence": "\u7696ICP\u590705002528\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u7696ICP\u590705002528\u53f7-25A", "serviceName": "e\u4f1a\u5b66", "serviceType": 6, "unitName": "\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66", "updateRecordTime": "2024-0...
+[20:09:12] [目标：中国科学技术大学] 有效list长度：3
+[20:09:12] [目标：中国科学技术大学] 提取统计：有效3个，无效0个
+[20:09:12] [目标：中国科学技术大学] 提取完成，共3个serviceName（已追加到文件）
+[20:09:33] [目标：北京市教育委员会] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%95%99%E8%82%B2%E5%A7%94%E5%91%98%E4%BC%9A" --max-time 60
+[20:09:33] [目标：北京市教育委员会] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:09:33] [目标：北京市教育委员会] 有效list长度：0
+[20:09:33] [目标：北京市教育委员会] 提取统计：有效0个，无效0个
+[20:09:33] [目标：北京市教育委员会] 未提取到任何serviceName
+[20:09:33] [目标：北京市教育委员会] 提取完成，共1个serviceName（已追加到文件）
+[20:09:54] [目标：江西省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B1%9F%E8%A5%BF%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:09:55] [目标：江西省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 2841127, "mainLicence": "\u8d63ICP\u590705005890\u53f7", "natureName": "\u653f\u5e9c\u673a\u5173", "serviceLicence": "\u8d63ICP\u590705005890\u53f7-13A", "serviceName": "\u6c5f\u897f\u667a\u6167\u6559\u80b2", "serviceType": 6, "unitName": "\u6c5f\u897f\u7701\u6559\u80b2\u5385", "updateRecordTim...
+[20:09:55] [目标：江西省教育厅] 有效list长度：1
+[20:09:55] [目标：江西省教育厅] 提取统计：有效1个，无效0个
+[20:09:55] [目标：江西省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:10:17] [目标：云南省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%BA%91%E5%8D%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:10:17] [目标：云南省教育厅] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:10:17] [目标：云南省教育厅] 响应code非200（实际：429）
+[20:10:17] [目标：云南省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:10:38] [目标：华东理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:10:39] [目标：华东理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:10:39] [目标：华东理工大学] 响应code非200（实际：429）
+[20:10:39] [目标：华东理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:10:59] [目标：华东师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:10:59] [目标：华东师范大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:10:59] [目标：华东师范大学] 响应code非200（实际：500）
+[20:10:59] [目标：华东师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:11:20] [目标：南开大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:11:20] [目标：南开大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:11:20] [目标：南开大学] 响应code非200（实际：429）
+[20:11:20] [目标：南开大学] 提取完成，共1个serviceName（已追加到文件）
+[20:11:41] [目标：贵州省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:11:41] [目标：贵州省教育厅] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:11:41] [目标：贵州省教育厅] 响应code非200（实际：429）
+[20:11:41] [目标：贵州省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:12:02] [目标：东南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:12:03] [目标：东南大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:12:03] [目标：东南大学] 响应code非200（实际：429）
+[20:12:03] [目标：东南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:12:24] [目标：山西省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E8%A5%BF%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:12:24] [目标：山西省教育厅] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:12:24] [目标：山西省教育厅] 响应code非200（实际：500）
+[20:12:24] [目标：山西省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:12:44] [目标：福州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%A6%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:12:45] [目标：福州大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:12:45] [目标：福州大学] 响应code非200（实际：429）
+[20:12:45] [目标：福州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:13:05] [目标：四川轻化工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E8%BD%BB%E5%8C%96%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:13:06] [目标：四川轻化工大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:13:06] [目标：四川轻化工大学] 响应code非200（实际：500）
+[20:13:06] [目标：四川轻化工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:13:26] [目标：其他] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%85%B6%E4%BB%96" --max-time 60
+[20:13:26] [目标：其他] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:13:26] [目标：其他] 响应code非200（实际：500）
+[20:13:26] [目标：其他] 提取完成，共1个serviceName（已追加到文件）
+[20:13:46] [目标：上海外国语大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:13:46] [目标：上海外国语大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:13:46] [目标：上海外国语大学] 响应code非200（实际：500）
+[20:13:46] [目标：上海外国语大学] 提取完成，共1个serviceName（已追加到文件）
+[20:14:07] [目标：武汉科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:14:07] [目标：武汉科技大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:14:07] [目标：武汉科技大学] 响应code非200（实际：500）
+[20:14:07] [目标：武汉科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:14:27] [目标：成都中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%88%90%E9%83%BD%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:14:27] [目标：成都中医药大学] 原始响应（前500字符）：{"code": 500, "message": null}...
+[20:14:27] [目标：成都中医药大学] 响应code非200（实际：500）
+[20:14:27] [目标：成都中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[20:14:48] [目标：辽宁省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%BE%BD%E5%AE%81%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:14:48] [目标：辽宁省教育厅] 原始响应（前500字符）：{"code": 500, "message": null}...
+[20:14:48] [目标：辽宁省教育厅] 响应code非200（实际：500）
+[20:14:48] [目标：辽宁省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:15:09] [目标：江西财经大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B1%9F%E8%A5%BF%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:15:09] [目标：江西财经大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:15:09] [目标：江西财经大学] 响应code非200（实际：500）
+[20:15:09] [目标：江西财经大学] 提取完成，共1个serviceName（已追加到文件）
+[20:15:29] [目标：内蒙古自治区教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:15:30] [目标：内蒙古自治区教育厅] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:15:30] [目标：内蒙古自治区教育厅] 响应code非200（实际：500）
+[20:15:30] [目标：内蒙古自治区教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:15:50] [目标：安徽大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%AE%89%E5%BE%BD%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:15:50] [目标：安徽大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:15:50] [目标：安徽大学] 响应code非200（实际：500）
+[20:15:50] [目标：安徽大学] 提取完成，共1个serviceName（已追加到文件）
+[20:16:10] [目标：西安交通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:16:10] [目标：西安交通大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:16:10] [目标：西安交通大学] 响应code非200（实际：500）
+[20:16:10] [目标：西安交通大学] 提取完成，共1个serviceName（已追加到文件）
+[20:16:30] [目标：中国地质大学（武汉）] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%AD%A6%E6%B1%89%EF%BC%89" --max-time 60
+[20:16:30] [目标：中国地质大学（武汉）] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:16:30] [目标：中国地质大学（武汉）] 响应code非200（实际：500）
+[20:16:30] [目标：中国地质大学（武汉）] 提取完成，共1个serviceName（已追加到文件）
+[20:16:51] [目标：吉林省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%90%89%E6%9E%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:16:51] [目标：吉林省教育厅] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:16:51] [目标：吉林省教育厅] 响应code非200（实际：500）
+[20:16:51] [目标：吉林省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:17:12] [目标：南昌大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E6%98%8C%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:17:12] [目标：南昌大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:17:12] [目标：南昌大学] 响应code非200（实际：429）
+[20:17:12] [目标：南昌大学] 提取完成，共1个serviceName（已追加到文件）
+[20:17:33] [目标：中南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:17:33] [目标：中南大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:17:33] [目标：中南大学] 响应code非200（实际：500）
+[20:17:33] [目标：中南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:17:54] [目标：中国科学院办公厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%8A%9E%E5%85%AC%E5%8E%85" --max-time 60
+[20:17:54] [目标：中国科学院办公厅] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:17:54] [目标：中国科学院办公厅] 响应code非200（实际：500）
+[20:17:54] [目标：中国科学院办公厅] 提取完成，共1个serviceName（已追加到文件）
+[20:18:14] [目标：甘肃省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%94%98%E8%82%83%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:18:15] [目标：甘肃省教育厅] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:18:15] [目标：甘肃省教育厅] 响应code非200（实际：500）
+[20:18:15] [目标：甘肃省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:18:35] [目标：郑州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%83%91%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:18:36] [目标：郑州大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:18:36] [目标：郑州大学] 响应code非200（实际：500）
+[20:18:36] [目标：郑州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:18:56] [目标：华中师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E4%B8%AD%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:18:56] [目标：华中师范大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:18:56] [目标：华中师范大学] 响应code非200（实际：500）
+[20:18:56] [目标：华中师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:19:17] [目标：西北大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8C%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:19:18] [目标：西北大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3616841, "mainLicence": "\u9655ICP\u590705010980\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9655ICP\u590705010980\u53f7-10A", "serviceName": "\u897f\u5317\u5927\u5b66", "serviceType": 6, "unitName": "\u897f\u5317\u5927\u5b66", "updateRecordTime": "2024-09-23 10:00:09...
+[20:19:18] [目标：西北大学] 有效list长度：1
+[20:19:18] [目标：西北大学] 提取统计：有效1个，无效0个
+[20:19:18] [目标：西北大学] 提取完成，共1个serviceName（已追加到文件）
+[20:19:39] [目标：合肥工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%90%88%E8%82%A5%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:19:39] [目标：合肥工业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:19:39] [目标：合肥工业大学] 有效list长度：0
+[20:19:39] [目标：合肥工业大学] 提取统计：有效0个，无效0个
+[20:19:39] [目标：合肥工业大学] 未提取到任何serviceName
+[20:19:39] [目标：合肥工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:20:00] [目标：云南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%BA%91%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:20:00] [目标：云南大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:20:00] [目标：云南大学] 有效list长度：0
+[20:20:00] [目标：云南大学] 提取统计：有效0个，无效0个
+[20:20:00] [目标：云南大学] 未提取到任何serviceName
+[20:20:00] [目标：云南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:20:21] [目标：中国人民大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:20:21] [目标：中国人民大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:20:21] [目标：中国人民大学] 有效list长度：0
+[20:20:21] [目标：中国人民大学] 提取统计：有效0个，无效0个
+[20:20:21] [目标：中国人民大学] 未提取到任何serviceName
+[20:20:21] [目标：中国人民大学] 提取完成，共1个serviceName（已追加到文件）
+[20:20:42] [目标：重庆大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:20:43] [目标：重庆大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:20:43] [目标：重庆大学] 有效list长度：0
+[20:20:43] [目标：重庆大学] 提取统计：有效0个，无效0个
+[20:20:43] [目标：重庆大学] 未提取到任何serviceName
+[20:20:43] [目标：重庆大学] 提取完成，共1个serviceName（已追加到文件）
+[20:21:04] [目标：上海理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:21:04] [目标：上海理工大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:21:04] [目标：上海理工大学] 有效list长度：0
+[20:21:04] [目标：上海理工大学] 提取统计：有效0个，无效0个
+[20:21:04] [目标：上海理工大学] 未提取到任何serviceName
+[20:21:04] [目标：上海理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:21:24] [目标：长安大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%95%BF%E5%AE%89%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:21:25] [目标：长安大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3904950, "mainLicence": "\u9655ICP\u590705001904\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9655ICP\u590705001904\u53f7-5A", "serviceName": "\u957f\u5927\u79fb\u52a8\u95e8\u6237", "serviceType": 6, "unitName": "\u957f\u5b89\u5927\u5b66", "updateRecordTime": "2024-04-...
+[20:21:25] [目标：长安大学] 有效list长度：1
+[20:21:25] [目标：长安大学] 提取统计：有效1个，无效0个
+[20:21:25] [目标：长安大学] 提取完成，共1个serviceName（已追加到文件）
+[20:21:46] [目标：北京交通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:21:46] [目标：北京交通大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:21:46] [目标：北京交通大学] 有效list长度：0
+[20:21:46] [目标：北京交通大学] 提取统计：有效0个，无效0个
+[20:21:46] [目标：北京交通大学] 未提取到任何serviceName
+[20:21:46] [目标：北京交通大学] 提取完成，共1个serviceName（已追加到文件）
+[20:22:07] [目标：苏州工学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%8B%8F%E5%B7%9E%E5%B7%A5%E5%AD%A6%E9%99%A2" --max-time 60
+[20:22:07] [目标：苏州工学院] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:22:07] [目标：苏州工学院] 有效list长度：0
+[20:22:07] [目标：苏州工学院] 提取统计：有效0个，无效0个
+[20:22:07] [目标：苏州工学院] 未提取到任何serviceName
+[20:22:07] [目标：苏州工学院] 提取完成，共1个serviceName（已追加到文件）
+[20:22:29] [目标：西安电子科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:22:29] [目标：西安电子科技大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 1, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3431712, "mainLicence": "\u9655ICP\u590705016463\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9655ICP\u590705016463\u53f7-10A", "serviceName": "i.\u897f\u7535", "serviceType": 6, "unitName": "\u897f\u5b89\u7535\u5b50\u79d1\u6280\u5927\u5b66", "updateRecordTime": "2024-...
+[20:22:29] [目标：西安电子科技大学] 有效list长度：2
+[20:22:29] [目标：西安电子科技大学] 提取统计：有效2个，无效0个
+[20:22:29] [目标：西安电子科技大学] 提取完成，共2个serviceName（已追加到文件）
+[20:22:50] [目标：济南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%8E%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:22:50] [目标：济南大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3023678, "mainLicence": "\u9c81ICP\u590709051414\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9c81ICP\u590709051414\u53f7-7A", "serviceName": "\u667a\u6167\u6d4e\u5927", "serviceType": 6, "unitName": "\u6d4e\u5357\u5927\u5b66", "updateRecordTime": "2024-03-29 12:36:33"...
+[20:22:50] [目标：济南大学] 有效list长度：1
+[20:22:50] [目标：济南大学] 提取统计：有效1个，无效0个
+[20:22:50] [目标：济南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:23:11] [目标：黑龙江省公安厅网安总队] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E5%85%AC%E5%AE%89%E5%8E%85%E7%BD%91%E5%AE%89%E6%80%BB%E9%98%9F" --max-time 60
+[20:23:12] [目标：黑龙江省公安厅网安总队] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:23:12] [目标：黑龙江省公安厅网安总队] 有效list长度：0
+[20:23:12] [目标：黑龙江省公安厅网安总队] 提取统计：有效0个，无效0个
+[20:23:12] [目标：黑龙江省公安厅网安总队] 未提取到任何serviceName
+[20:23:12] [目标：黑龙江省公安厅网安总队] 提取完成，共1个serviceName（已追加到文件）
+[20:23:32] [目标：扬州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%89%AC%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:23:32] [目标：扬州大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:23:32] [目标：扬州大学] 有效list长度：0
+[20:23:32] [目标：扬州大学] 提取统计：有效0个，无效0个
+[20:23:32] [目标：扬州大学] 未提取到任何serviceName
+[20:23:32] [目标：扬州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:23:53] [目标：广西中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E8%A5%BF%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:23:53] [目标：广西中医药大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:23:53] [目标：广西中医药大学] 有效list长度：0
+[20:23:53] [目标：广西中医药大学] 提取统计：有效0个，无效0个
+[20:23:53] [目标：广西中医药大学] 未提取到任何serviceName
+[20:23:53] [目标：广西中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[20:24:14] [目标：陕西师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%99%95%E8%A5%BF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:24:15] [目标：陕西师范大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:24:15] [目标：陕西师范大学] 有效list长度：0
+[20:24:15] [目标：陕西师范大学] 提取统计：有效0个，无效0个
+[20:24:15] [目标：陕西师范大学] 未提取到任何serviceName
+[20:24:15] [目标：陕西师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:24:37] [目标：广东工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:24:37] [目标：广东工业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:24:37] [目标：广东工业大学] 有效list长度：0
+[20:24:37] [目标：广东工业大学] 提取统计：有效0个，无效0个
+[20:24:37] [目标：广东工业大学] 未提取到任何serviceName
+[20:24:37] [目标：广东工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:24:58] [目标：中央民族大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%A4%AE%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:24:59] [目标：中央民族大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3644717, "mainLicence": "\u4eacICP\u590710039345\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u4eacICP\u590710039345\u53f7-5A", "serviceName": "\u6c11\u5927\u901a", "serviceType": 6, "unitName": "\u4e2d\u592e\u6c11\u65cf\u5927\u5b66", "updateRecordTime": "2024-10-09 16:...
+[20:24:59] [目标：中央民族大学] 有效list长度：1
+[20:24:59] [目标：中央民族大学] 提取统计：有效1个，无效0个
+[20:24:59] [目标：中央民族大学] 提取完成，共1个serviceName（已追加到文件）
+[20:25:20] [目标：辽宁省交通高等专科学校] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%BE%BD%E5%AE%81%E7%9C%81%E4%BA%A4%E9%80%9A%E9%AB%98%E7%AD%89%E4%B8%93%E7%A7%91%E5%AD%A6%E6%A0%A1" --max-time 60
+[20:25:20] [目标：辽宁省交通高等专科学校] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:25:20] [目标：辽宁省交通高等专科学校] 有效list长度：0
+[20:25:20] [目标：辽宁省交通高等专科学校] 提取统计：有效0个，无效0个
+[20:25:20] [目标：辽宁省交通高等专科学校] 未提取到任何serviceName
+[20:25:20] [目标：辽宁省交通高等专科学校] 提取完成，共1个serviceName（已追加到文件）
+[20:25:41] [目标：西安科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:25:41] [目标：西安科技大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:25:41] [目标：西安科技大学] 有效list长度：0
+[20:25:41] [目标：西安科技大学] 提取统计：有效0个，无效0个
+[20:25:41] [目标：西安科技大学] 未提取到任何serviceName
+[20:25:41] [目标：西安科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:26:02] [目标：河北大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8C%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:26:02] [目标：河北大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:26:02] [目标：河北大学] 有效list长度：0
+[20:26:02] [目标：河北大学] 提取统计：有效0个，无效0个
+[20:26:02] [目标：河北大学] 未提取到任何serviceName
+[20:26:02] [目标：河北大学] 提取完成，共1个serviceName（已追加到文件）
+[20:26:24] [目标：北京师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:26:25] [目标：北京师范大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 1, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 3905922, "mainLicence": "\u4eacICP\u590710031106\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u4eacICP\u590710031106\u53f7-87A", "serviceName": "\u5317\u5e08\u5927OA", "serviceType": 6, "unitName": "\u5317\u4eac\u5e08\u8303\u5927\u5b66", "updateRecordTime": "2024-06-11 ...
+[20:26:25] [目标：北京师范大学] 有效list长度：2
+[20:26:25] [目标：北京师范大学] 提取统计：有效2个，无效0个
+[20:26:25] [目标：北京师范大学] 提取完成，共2个serviceName（已追加到文件）
+[20:26:51] [目标：广西师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E8%A5%BF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:26:51] [目标：广西师范大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:26:51] [目标：广西师范大学] 有效list长度：0
+[20:26:51] [目标：广西师范大学] 提取统计：有效0个，无效0个
+[20:26:51] [目标：广西师范大学] 未提取到任何serviceName
+[20:26:51] [目标：广西师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:27:13] [目标：西南科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:27:13] [目标：西南科技大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:27:13] [目标：西南科技大学] 有效list长度：0
+[20:27:13] [目标：西南科技大学] 提取统计：有效0个，无效0个
+[20:27:13] [目标：西南科技大学] 未提取到任何serviceName
+[20:27:13] [目标：西南科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:27:34] [目标：北京科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:27:35] [目标：北京科技大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:27:35] [目标：北京科技大学] 有效list长度：0
+[20:27:35] [目标：北京科技大学] 提取统计：有效0个，无效0个
+[20:27:35] [目标：北京科技大学] 未提取到任何serviceName
+[20:27:35] [目标：北京科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:28:00] [目标：广东省广州市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[20:28:00] [目标：广东省广州市教育局] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:28:00] [目标：广东省广州市教育局] 有效list长度：0
+[20:28:00] [目标：广东省广州市教育局] 提取统计：有效0个，无效0个
+[20:28:00] [目标：广东省广州市教育局] 未提取到任何serviceName
+[20:28:00] [目标：广东省广州市教育局] 提取完成，共1个serviceName（已追加到文件）
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 有效list长度：0
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 提取统计：有效0个，无效0个
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 未提取到任何serviceName
+[20:28:21] [目标：新疆维吾尔自治区教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:28:42] [目标：南京大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:28:43] [目标：南京大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4248170, "mainLicence": "\u82cfICP\u590710204514\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u82cfICP\u590710204514\u53f7-21A", "serviceName": "\u5357\u4eac\u5927\u5b66", "serviceType": 6, "unitName": "\u6c5f\u82cf\u91d1\u667a\u6559\u80b2\u4fe1\u606f\u80a1\u4efd\u6709\u9650\u516c\...
+[20:28:43] [目标：南京大学] 有效list长度：1
+[20:28:43] [目标：南京大学] 提取统计：有效1个，无效0个
+[20:28:43] [目标：南京大学] 提取完成，共1个serviceName（已追加到文件）
+[20:29:04] [目标：中国农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:29:04] [目标：中国农业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:29:04] [目标：中国农业大学] 有效list长度：0
+[20:29:04] [目标：中国农业大学] 提取统计：有效0个，无效0个
+[20:29:04] [目标：中国农业大学] 未提取到任何serviceName
+[20:29:04] [目标：中国农业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:29:25] [目标：东北林业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%9C%E5%8C%97%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:29:25] [目标：东北林业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:29:25] [目标：东北林业大学] 有效list长度：0
+[20:29:25] [目标：东北林业大学] 提取统计：有效0个，无效0个
+[20:29:25] [目标：东北林业大学] 未提取到任何serviceName
+[20:29:25] [目标：东北林业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:29:46] [目标：黑龙江省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:29:46] [目标：黑龙江省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:29:46] [目标：黑龙江省教育厅] 有效list长度：0
+[20:29:46] [目标：黑龙江省教育厅] 提取统计：有效0个，无效0个
+[20:29:46] [目标：黑龙江省教育厅] 未提取到任何serviceName
+[20:29:46] [目标：黑龙江省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:30:08] [目标：华南农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E5%8D%97%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:30:08] [目标：华南农业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:30:08] [目标：华南农业大学] 有效list长度：0
+[20:30:08] [目标：华南农业大学] 提取统计：有效0个，无效0个
+[20:30:08] [目标：华南农业大学] 未提取到任何serviceName
+[20:30:08] [目标：华南农业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:30:29] [目标：上海交通大学医学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2" --max-time 60
+[20:30:29] [目标：上海交通大学医学院] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:30:29] [目标：上海交通大学医学院] 有效list长度：0
+[20:30:29] [目标：上海交通大学医学院] 提取统计：有效0个，无效0个
+[20:30:29] [目标：上海交通大学医学院] 未提取到任何serviceName
+[20:30:29] [目标：上海交通大学医学院] 提取完成，共1个serviceName（已追加到文件）
+[20:30:50] [目标：华中农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E4%B8%AD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:30:50] [目标：华中农业大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:30:50] [目标：华中农业大学] 有效list长度：0
+[20:30:50] [目标：华中农业大学] 提取统计：有效0个，无效0个
+[20:30:50] [目标：华中农业大学] 未提取到任何serviceName
+[20:30:50] [目标：华中农业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:31:11] [目标：陕西省西安市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[20:31:11] [目标：陕西省西安市教育局] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:31:11] [目标：陕西省西安市教育局] 有效list长度：0
+[20:31:11] [目标：陕西省西安市教育局] 提取统计：有效0个，无效0个
+[20:31:11] [目标：陕西省西安市教育局] 未提取到任何serviceName
+[20:31:11] [目标：陕西省西安市教育局] 提取完成，共1个serviceName（已追加到文件）
+[20:31:32] [目标：成都理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%88%90%E9%83%BD%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:31:32] [目标：成都理工大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:31:32] [目标：成都理工大学] 有效list长度：0
+[20:31:32] [目标：成都理工大学] 提取统计：有效0个，无效0个
+[20:31:32] [目标：成都理工大学] 未提取到任何serviceName
+[20:31:32] [目标：成都理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:31:54] [目标：天津大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:31:54] [目标：天津大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 3, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4096633, "mainLicence": "\u6d25ICP\u590705004358\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u6d25ICP\u590705004358\u53f7-20A", "serviceName": "\u5929\u6d25\u5927\u5b66\u7efc\u5408\u670d\u52a1\u5e73\u53f0", "serviceType": 6, "unitName": "\u5929\u6d25\u5927\u5b66", "upd...
+[20:31:54] [目标：天津大学] 有效list长度：4
+[20:31:54] [目标：天津大学] 提取统计：有效4个，无效0个
+[20:31:54] [目标：天津大学] 提取完成，共4个serviceName（已追加到文件）
+[20:32:15] [目标：海南省教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%B7%E5%8D%97%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:32:16] [目标：海南省教育厅] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:32:16] [目标：海南省教育厅] 有效list长度：0
+[20:32:16] [目标：海南省教育厅] 提取统计：有效0个，无效0个
+[20:32:16] [目标：海南省教育厅] 未提取到任何serviceName
+[20:32:16] [目标：海南省教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:32:36] [目标：西安医学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E5%8C%BB%E5%AD%A6%E9%99%A2" --max-time 60
+[20:32:36] [目标：西安医学院] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:32:36] [目标：西安医学院] 有效list长度：0
+[20:32:36] [目标：西安医学院] 提取统计：有效0个，无效0个
+[20:32:36] [目标：西安医学院] 未提取到任何serviceName
+[20:32:36] [目标：西安医学院] 提取完成，共1个serviceName（已追加到文件）
+[20:32:57] [目标：山东理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:32:57] [目标：山东理工大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4146013, "mainLicence": "\u9c81ICP\u590709041544\u53f7", "natureName": "\u4e8b\u4e1a\u5355\u4f4d", "serviceLicence": "\u9c81ICP\u590709041544\u53f7-13A", "serviceName": "\u5c71\u4e1c\u7406\u5de5\u5927\u5b66", "serviceType": 6, "unitName": "\u5c71\u4e1c\u7406\u5de5\u5927\u5b66", "updateRecordTim...
+[20:32:57] [目标：山东理工大学] 有效list长度：1
+[20:32:57] [目标：山东理工大学] 提取统计：有效1个，无效0个
+[20:32:57] [目标：山东理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:33:18] [目标：广西大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E8%A5%BF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:33:18] [目标：广西大学] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 0, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [], "navigateFirstPage": 0, "navigateLastPage": 0, "navigatePages": 8, "navigatepageNums": [], "nextPage": 0, "pageNum": 1, "pageSize": 10, "pages": 0, "prePage": 0, "size": 0, "startRow": 0, "total": 0}, "success": true}...
+[20:33:18] [目标：广西大学] 有效list长度：0
+[20:33:18] [目标：广西大学] 提取统计：有效0个，无效0个
+[20:33:18] [目标：广西大学] 未提取到任何serviceName
+[20:33:18] [目标：广西大学] 提取完成，共1个serviceName（已追加到文件）
+[20:33:39] [目标：南京理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:33:39] [目标：南京理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:33:39] [目标：南京理工大学] 响应code非200（实际：429）
+[20:33:39] [目标：南京理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:34:00] [目标：东北师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:34:00] [目标：东北师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:34:00] [目标：东北师范大学] 响应code非200（实际：429）
+[20:34:00] [目标：东北师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:34:21] [目标：南京农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:34:22] [目标：南京农业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:34:22] [目标：南京农业大学] 响应code非200（实际：429）
+[20:34:22] [目标：南京农业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:34:43] [目标：中国矿业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%9F%BF%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:34:43] [目标：中国矿业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:34:43] [目标：中国矿业大学] 响应code非200（实际：429）
+[20:34:43] [目标：中国矿业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:35:04] [目标：浙江工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:35:05] [目标：浙江工业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:35:05] [目标：浙江工业大学] 响应code非200（实际：429）
+[20:35:05] [目标：浙江工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:35:25] [目标：南京医科大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:35:26] [目标：南京医科大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:35:26] [目标：南京医科大学] 响应code非200（实际：429）
+[20:35:26] [目标：南京医科大学] 提取完成，共1个serviceName（已追加到文件）
+[20:35:46] [目标：南京航空航天大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:35:47] [目标：南京航空航天大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:35:47] [目标：南京航空航天大学] 响应code非200（实际：429）
+[20:35:47] [目标：南京航空航天大学] 提取完成，共1个serviceName（已追加到文件）
+[20:36:07] [目标：四川省成都市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E7%9C%81%E6%88%90%E9%83%BD%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[20:36:08] [目标：四川省成都市教育局] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:36:08] [目标：四川省成都市教育局] 响应code非200（实际：429）
+[20:36:08] [目标：四川省成都市教育局] 提取完成，共1个serviceName（已追加到文件）
+[20:36:29] [目标：西南交通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%97%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:36:29] [目标：西南交通大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:36:29] [目标：西南交通大学] 响应code非200（实际：429）
+[20:36:29] [目标：西南交通大学] 提取完成，共1个serviceName（已追加到文件）
+[20:36:49] [目标：湖北工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:36:50] [目标：湖北工业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:36:50] [目标：湖北工业大学] 响应code非200（实际：429）
+[20:36:50] [目标：湖北工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:37:11] [目标：南京信息工程大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:37:11] [目标：南京信息工程大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:37:11] [目标：南京信息工程大学] 响应code非200（实际：429）
+[20:37:11] [目标：南京信息工程大学] 提取完成，共1个serviceName（已追加到文件）
+[20:37:32] [目标：湖南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:37:32] [目标：湖南大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:37:32] [目标：湖南大学] 响应code非200（实际：429）
+[20:37:32] [目标：湖南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:37:53] [目标：西北工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8C%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:37:53] [目标：西北工业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:37:53] [目标：西北工业大学] 响应code非200（实际：429）
+[20:37:53] [目标：西北工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:38:14] [目标：四川农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:38:15] [目标：四川农业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:38:15] [目标：四川农业大学] 响应code非200（实际：429）
+[20:38:15] [目标：四川农业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:38:37] [目标：天津市教育委员会] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%A4%A9%E6%B4%A5%E5%B8%82%E6%95%99%E8%82%B2%E5%A7%94%E5%91%98%E4%BC%9A" --max-time 60
+[20:38:37] [目标：天津市教育委员会] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:38:37] [目标：天津市教育委员会] 响应code非200（实际：429）
+[20:38:37] [目标：天津市教育委员会] 提取完成，共1个serviceName（已追加到文件）
+[20:38:58] [目标：河海大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E6%B5%B7%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:38:59] [目标：河海大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:38:59] [目标：河海大学] 响应code非200（实际：429）
+[20:38:59] [目标：河海大学] 提取完成，共1个serviceName（已追加到文件）
+[20:39:19] [目标：北京航空航天大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:39:20] [目标：北京航空航天大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:39:20] [目标：北京航空航天大学] 响应code非200（实际：429）
+[20:39:20] [目标：北京航空航天大学] 提取完成，共1个serviceName（已追加到文件）
+[20:39:41] [目标：西南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:39:41] [目标：西南大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:39:41] [目标：西南大学] 响应code非200（实际：429）
+[20:39:41] [目标：西南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:40:02] [目标：北京理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:40:02] [目标：北京理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:40:02] [目标：北京理工大学] 响应code非200（实际：429）
+[20:40:02] [目标：北京理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:40:23] [目标：中南财经政法大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%8D%97%E8%B4%A2%E7%BB%8F%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:40:23] [目标：中南财经政法大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:40:23] [目标：中南财经政法大学] 响应code非200（实际：429）
+[20:40:23] [目标：中南财经政法大学] 提取完成，共1个serviceName（已追加到文件）
+[20:40:44] [目标：武汉工商学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2" --max-time 60
+[20:40:45] [目标：武汉工商学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:40:45] [目标：武汉工商学院] 响应code非200（实际：429）
+[20:40:45] [目标：武汉工商学院] 提取完成，共1个serviceName（已追加到文件）
+[20:41:05] [目标：中国石油大学（北京）] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89" --max-time 60
+[20:41:06] [目标：中国石油大学（北京）] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:41:06] [目标：中国石油大学（北京）] 响应code非200（实际：429）
+[20:41:06] [目标：中国石油大学（北京）] 提取完成，共1个serviceName（已追加到文件）
+[20:41:26] [目标：荆楚理工学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%8D%86%E6%A5%9A%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2" --max-time 60
+[20:41:27] [目标：荆楚理工学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:41:27] [目标：荆楚理工学院] 响应code非200（实际：429）
+[20:41:27] [目标：荆楚理工学院] 提取完成，共1个serviceName（已追加到文件）
+[20:41:47] [目标：南华大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E5%8D%8E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:41:48] [目标：南华大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:41:48] [目标：南华大学] 响应code非200（实际：429）
+[20:41:48] [目标：南华大学] 提取完成，共1个serviceName（已追加到文件）
+[20:42:08] [目标：宁夏回族自治区教育厅] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%95%99%E8%82%B2%E5%8E%85" --max-time 60
+[20:42:09] [目标：宁夏回族自治区教育厅] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:42:09] [目标：宁夏回族自治区教育厅] 响应code非200（实际：429）
+[20:42:09] [目标：宁夏回族自治区教育厅] 提取完成，共1个serviceName（已追加到文件）
+[20:42:29] [目标：三峡大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%89%E5%B3%A1%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:42:30] [目标：三峡大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:42:30] [目标：三峡大学] 响应code非200（实际：429）
+[20:42:30] [目标：三峡大学] 提取完成，共1个serviceName（已追加到文件）
+[20:42:50] [目标：上海财经大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:42:51] [目标：上海财经大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:42:51] [目标：上海财经大学] 响应code非200（实际：429）
+[20:42:51] [目标：上海财经大学] 提取完成，共1个serviceName（已追加到文件）
+[20:43:11] [目标：杭州电子科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:43:12] [目标：杭州电子科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:43:12] [目标：杭州电子科技大学] 响应code非200（实际：429）
+[20:43:12] [目标：杭州电子科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:43:33] [目标：武汉工程大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:43:33] [目标：武汉工程大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:43:33] [目标：武汉工程大学] 响应code非200（实际：429）
+[20:43:33] [目标：武汉工程大学] 提取完成，共1个serviceName（已追加到文件）
+[20:43:54] [目标：河南大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8D%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:43:54] [目标：河南大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:43:54] [目标：河南大学] 响应code非200（实际：429）
+[20:43:54] [目标：河南大学] 提取完成，共1个serviceName（已追加到文件）
+[20:44:15] [目标：河南工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8D%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:44:15] [目标：河南工业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:44:15] [目标：河南工业大学] 响应code非200（实际：429）
+[20:44:15] [目标：河南工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:44:36] [目标：西北师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:44:37] [目标：西北师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:44:37] [目标：西北师范大学] 响应code非200（实际：429）
+[20:44:37] [目标：西北师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:44:58] [目标：西安理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:44:58] [目标：西安理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:44:58] [目标：西安理工大学] 响应code非200（实际：429）
+[20:44:58] [目标：西安理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:45:19] [目标：新疆大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%96%B0%E7%96%86%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:45:20] [目标：新疆大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:45:20] [目标：新疆大学] 响应code非200（实际：429）
+[20:45:20] [目标：新疆大学] 提取完成，共1个serviceName（已追加到文件）
+[20:45:41] [目标：南京财经大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:45:41] [目标：南京财经大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:45:41] [目标：南京财经大学] 响应code非200（实际：429）
+[20:45:41] [目标：南京财经大学] 提取完成，共1个serviceName（已追加到文件）
+[20:46:02] [目标：四川师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%9B%E5%B7%9D%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:46:02] [目标：四川师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:46:02] [目标：四川师范大学] 响应code非200（实际：429）
+[20:46:02] [目标：四川师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:46:23] [目标：南京师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:46:23] [目标：南京师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:46:23] [目标：南京师范大学] 响应code非200（实际：429）
+[20:46:23] [目标：南京师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:46:44] [目标：淮阴工学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B7%AE%E9%98%B4%E5%B7%A5%E5%AD%A6%E9%99%A2" --max-time 60
+[20:46:45] [目标：淮阴工学院] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:46:45] [目标：淮阴工学院] 响应code非200（实际：500）
+[20:46:45] [目标：淮阴工学院] 提取完成，共1个serviceName（已追加到文件）
+[20:47:05] [目标：南通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:47:05] [目标：南通大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:47:05] [目标：南通大学] 响应code非200（实际：500）
+[20:47:05] [目标：南通大学] 提取完成，共1个serviceName（已追加到文件）
+[20:47:26] [目标：南京中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:47:26] [目标：南京中医药大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:47:26] [目标：南京中医药大学] 响应code非200（实际：500）
+[20:47:26] [目标：南京中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[20:47:46] [目标：浙江工商大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E5%B7%A5%E5%95%86%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:47:47] [目标：浙江工商大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:47:47] [目标：浙江工商大学] 响应code非200（实际：429）
+[20:47:47] [目标：浙江工商大学] 提取完成，共1个serviceName（已追加到文件）
+[20:48:08] [目标：江苏海洋大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B1%9F%E8%8B%8F%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:48:08] [目标：江苏海洋大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:48:08] [目标：江苏海洋大学] 响应code非200（实际：500）
+[20:48:08] [目标：江苏海洋大学] 提取完成，共1个serviceName（已追加到文件）
+[20:48:29] [目标：山东师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:48:29] [目标：山东师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:48:29] [目标：山东师范大学] 响应code非200（实际：429）
+[20:48:29] [目标：山东师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:48:49] [目标：石河子大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%9F%B3%E6%B2%B3%E5%AD%90%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:48:50] [目标：石河子大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:48:50] [目标：石河子大学] 响应code非200（实际：429）
+[20:48:50] [目标：石河子大学] 提取完成，共1个serviceName（已追加到文件）
+[20:49:11] [目标：长沙理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%95%BF%E6%B2%99%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:49:11] [目标：长沙理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:49:11] [目标：长沙理工大学] 响应code非200（实际：429）
+[20:49:11] [目标：长沙理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:49:32] [目标：湖南师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8D%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:49:32] [目标：湖南师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:49:32] [目标：湖南师范大学] 响应code非200（实际：429）
+[20:49:32] [目标：湖南师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:49:53] [目标：湖北中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:49:53] [目标：湖北中医药大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:49:53] [目标：湖北中医药大学] 响应code非200（实际：429）
+[20:49:53] [目标：湖北中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[20:50:13] [目标：河北经贸大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8C%97%E7%BB%8F%E8%B4%B8%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:50:14] [目标：河北经贸大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:50:14] [目标：河北经贸大学] 响应code非200（实际：429）
+[20:50:14] [目标：河北经贸大学] 提取完成，共1个serviceName（已追加到文件）
+[20:50:34] [目标：广西民族大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E8%A5%BF%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:50:35] [目标：广西民族大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:50:35] [目标：广西民族大学] 响应code非200（实际：429）
+[20:50:35] [目标：广西民族大学] 提取完成，共1个serviceName（已追加到文件）
+[20:50:56] [目标：西安建筑科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%AE%89%E5%BB%BA%E7%AD%91%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:50:56] [目标：西安建筑科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:50:56] [目标：西安建筑科技大学] 响应code非200（实际：429）
+[20:50:56] [目标：西安建筑科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:51:17] [目标：南京林业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:51:17] [目标：南京林业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:51:17] [目标：南京林业大学] 响应code非200（实际：429）
+[20:51:17] [目标：南京林业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:51:38] [目标：吉林大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:51:38] [目标：吉林大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:51:38] [目标：吉林大学] 响应code非200（实际：429）
+[20:51:38] [目标：吉林大学] 提取完成，共1个serviceName（已追加到文件）
+[20:51:59] [目标：云南师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%BA%91%E5%8D%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:51:59] [目标：云南师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:51:59] [目标：云南师范大学] 响应code非200（实际：429）
+[20:51:59] [目标：云南师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:52:20] [目标：苏州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%8B%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:52:20] [目标：苏州大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:52:20] [目标：苏州大学] 响应code非200（实际：500）
+[20:52:20] [目标：苏州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:52:40] [目标：上海大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:52:40] [目标：上海大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:52:40] [目标：上海大学] 响应code非200（实际：500）
+[20:52:40] [目标：上海大学] 提取完成，共1个serviceName（已追加到文件）
+[20:53:01] [目标：西南民族大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%97%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:53:01] [目标：西南民族大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:53:01] [目标：西南民族大学] 响应code非200（实际：500）
+[20:53:01] [目标：西南民族大学] 提取完成，共1个serviceName（已追加到文件）
+[20:53:22] [目标：重庆师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%87%8D%E5%BA%86%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:53:22] [目标：重庆师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:53:22] [目标：重庆师范大学] 响应code非200（实际：429）
+[20:53:22] [目标：重庆师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:53:42] [目标：华北电力大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:53:42] [目标：华北电力大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:53:42] [目标：华北电力大学] 响应code非200（实际：429）
+[20:53:42] [目标：华北电力大学] 提取完成，共1个serviceName（已追加到文件）
+[20:54:03] [目标：南京工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:54:03] [目标：南京工业大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:54:03] [目标：南京工业大学] 响应code非200（实际：500）
+[20:54:03] [目标：南京工业大学] 提取完成，共1个serviceName（已追加到文件）
+[20:54:24] [目标：华中科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:54:24] [目标：华中科技大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:54:24] [目标：华中科技大学] 响应code非200（实际：500）
+[20:54:24] [目标：华中科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:54:44] [目标：昆明理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%98%86%E6%98%8E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:54:44] [目标：昆明理工大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:54:44] [目标：昆明理工大学] 响应code非200（实际：500）
+[20:54:44] [目标：昆明理工大学] 提取完成，共1个serviceName（已追加到文件）
+[20:55:04] [目标：东莞理工学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%9C%E8%8E%9E%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2" --max-time 60
+[20:55:04] [目标：东莞理工学院] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:55:04] [目标：东莞理工学院] 响应code非200（实际：500）
+[20:55:04] [目标：东莞理工学院] 提取完成，共1个serviceName（已追加到文件）
+[20:55:25] [目标：甘肃中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%94%98%E8%82%83%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:55:25] [目标：甘肃中医药大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:55:25] [目标：甘肃中医药大学] 响应code非200（实际：500）
+[20:55:25] [目标：甘肃中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[20:55:45] [目标：中国美术学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2" --max-time 60
+[20:55:46] [目标：中国美术学院] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:55:46] [目标：中国美术学院] 响应code非200（实际：500）
+[20:55:46] [目标：中国美术学院] 提取完成，共1个serviceName（已追加到文件）
+[20:56:06] [目标：国家开放大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%BD%E5%AE%B6%E5%BC%80%E6%94%BE%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:56:06] [目标：国家开放大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:56:06] [目标：国家开放大学] 响应code非200（实际：500）
+[20:56:06] [目标：国家开放大学] 提取完成，共1个serviceName（已追加到文件）
+[20:56:27] [目标：桂林电子科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%A1%82%E6%9E%97%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:56:27] [目标：桂林电子科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:56:27] [目标：桂林电子科技大学] 响应code非200（实际：429）
+[20:56:27] [目标：桂林电子科技大学] 提取完成，共1个serviceName（已追加到文件）
+[20:56:48] [目标：福建省福州市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%A6%8F%E5%B7%9E%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[20:56:49] [目标：福建省福州市教育局] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:56:49] [目标：福建省福州市教育局] 响应code非200（实际：429）
+[20:56:49] [目标：福建省福州市教育局] 提取完成，共1个serviceName（已追加到文件）
+[20:57:09] [目标：中国计量大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:57:10] [目标：中国计量大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:57:10] [目标：中国计量大学] 响应code非200（实际：429）
+[20:57:10] [目标：中国计量大学] 提取完成，共1个serviceName（已追加到文件）
+[20:57:31] [目标：湖北省武汉市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E7%9C%81%E6%AD%A6%E6%B1%89%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[20:57:31] [目标：湖北省武汉市教育局] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:57:31] [目标：湖北省武汉市教育局] 响应code非200（实际：429）
+[20:57:31] [目标：湖北省武汉市教育局] 提取完成，共1个serviceName（已追加到文件）
+[20:57:52] [目标：海南师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%B7%E5%8D%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:57:52] [目标：海南师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:57:52] [目标：海南师范大学] 响应code非200（实际：429）
+[20:57:52] [目标：海南师范大学] 提取完成，共1个serviceName（已追加到文件）
+[20:58:13] [目标：常州大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B8%B8%E5%B7%9E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:58:13] [目标：常州大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:58:13] [目标：常州大学] 响应code非200（实际：500）
+[20:58:13] [目标：常州大学] 提取完成，共1个serviceName（已追加到文件）
+[20:58:33] [目标：上海体育大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:58:34] [目标：上海体育大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:58:34] [目标：上海体育大学] 响应code非200（实际：500）
+[20:58:34] [目标：上海体育大学] 提取完成，共1个serviceName（已追加到文件）
+[20:58:54] [目标：陕西铁路工程职业技术学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%99%95%E8%A5%BF%E9%93%81%E8%B7%AF%E5%B7%A5%E7%A8%8B%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" --max-time 60
+[20:58:54] [目标：陕西铁路工程职业技术学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:58:54] [目标：陕西铁路工程职业技术学院] 响应code非200（实际：429）
+[20:58:54] [目标：陕西铁路工程职业技术学院] 提取完成，共1个serviceName（已追加到文件）
+[20:59:15] [目标：上海商学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%95%86%E5%AD%A6%E9%99%A2" --max-time 60
+[20:59:16] [目标：上海商学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:59:16] [目标：上海商学院] 响应code非200（实际：429）
+[20:59:16] [目标：上海商学院] 提取完成，共1个serviceName（已追加到文件）
+[20:59:36] [目标：上海音乐学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2" --max-time 60
+[20:59:37] [目标：上海音乐学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[20:59:37] [目标：上海音乐学院] 响应code非200（实际：429）
+[20:59:37] [目标：上海音乐学院] 提取完成，共1个serviceName（已追加到文件）
+[20:59:57] [目标：西华大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%8E%E5%A4%A7%E5%AD%A6" --max-time 60
+[20:59:57] [目标：西华大学] 原始响应（前500字符）：{"code": 500, "message": "\u5f53\u524d\u8bbf\u95ee\u5df2\u88ab\u521b\u5b87\u76fe\u62e6\u622a"}...
+[20:59:57] [目标：西华大学] 响应code非200（实际：500）
+[20:59:57] [目标：西华大学] 提取完成，共1个serviceName（已追加到文件）
+[21:00:18] [目标：南方科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:00:18] [目标：南方科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:00:18] [目标：南方科技大学] 响应code非200（实际：429）
+[21:00:18] [目标：南方科技大学] 提取完成，共1个serviceName（已追加到文件）
+[21:00:39] [目标：郑州轻工业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%83%91%E5%B7%9E%E8%BD%BB%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:00:40] [目标：郑州轻工业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:00:40] [目标：郑州轻工业大学] 响应code非200（实际：429）
+[21:00:40] [目标：郑州轻工业大学] 提取完成，共1个serviceName（已追加到文件）
+[21:01:01] [目标：对外经济贸易大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%AF%B9%E5%A4%96%E7%BB%8F%E6%B5%8E%E8%B4%B8%E6%98%93%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:01:01] [目标：对外经济贸易大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:01:01] [目标：对外经济贸易大学] 响应code非200（实际：429）
+[21:01:01] [目标：对外经济贸易大学] 提取完成，共1个serviceName（已追加到文件）
+[21:01:23] [目标：南京邮电大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8D%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:01:23] [目标：南京邮电大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:01:23] [目标：南京邮电大学] 响应code非200（实际：429）
+[21:01:23] [目标：南京邮电大学] 提取完成，共1个serviceName（已追加到文件）
+[21:01:44] [目标：武汉学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%AD%A6%E6%B1%89%E5%AD%A6%E9%99%A2" --max-time 60
+[21:01:45] [目标：武汉学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:01:45] [目标：武汉学院] 响应code非200（实际：429）
+[21:01:45] [目标：武汉学院] 提取完成，共1个serviceName（已追加到文件）
+[21:02:05] [目标：湖南科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8D%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:02:06] [目标：湖南科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:02:06] [目标：湖南科技大学] 响应code非200（实际：429）
+[21:02:06] [目标：湖南科技大学] 提取完成，共1个serviceName（已追加到文件）
+[21:02:26] [目标：上海工商职业技术学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E5%B7%A5%E5%95%86%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2" --max-time 60
+[21:02:27] [目标：上海工商职业技术学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:02:27] [目标：上海工商职业技术学院] 响应code非200（实际：429）
+[21:02:27] [目标：上海工商职业技术学院] 提取完成，共1个serviceName（已追加到文件）
+[21:02:47] [目标：西北政法大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8C%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:02:50] [目标：西北政法大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:02:50] [目标：西北政法大学] 响应code非200（实际：429）
+[21:02:50] [目标：西北政法大学] 提取完成，共1个serviceName（已追加到文件）
+[21:03:11] [目标：河北师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:03:11] [目标：河北师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:03:11] [目标：河北师范大学] 响应code非200（实际：429）
+[21:03:11] [目标：河北师范大学] 提取完成，共1个serviceName（已追加到文件）
+[21:03:32] [目标：北京市海淀区教育委员会] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%95%99%E8%82%B2%E5%A7%94%E5%91%98%E4%BC%9A" --max-time 60
+[21:03:32] [目标：北京市海淀区教育委员会] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:03:32] [目标：北京市海淀区教育委员会] 响应code非200（实际：429）
+[21:03:32] [目标：北京市海淀区教育委员会] 提取完成，共1个serviceName（已追加到文件）
+[21:03:53] [目标：西京学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E4%BA%AC%E5%AD%A6%E9%99%A2" --max-time 60
+[21:03:53] [目标：西京学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:03:53] [目标：西京学院] 响应code非200（实际：429）
+[21:03:53] [目标：西京学院] 提取完成，共1个serviceName（已追加到文件）
+[21:04:14] [目标：中国科学院大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:04:14] [目标：中国科学院大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:04:14] [目标：中国科学院大学] 响应code非200（实际：429）
+[21:04:14] [目标：中国科学院大学] 提取完成，共1个serviceName（已追加到文件）
+[21:04:35] [目标：湖北理工学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2" --max-time 60
+[21:04:35] [目标：湖北理工学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:04:35] [目标：湖北理工学院] 响应code非200（实际：429）
+[21:04:35] [目标：湖北理工学院] 提取完成，共1个serviceName（已追加到文件）
+[21:04:56] [目标：国防科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%9B%BD%E9%98%B2%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:04:56] [目标：国防科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:04:56] [目标：国防科技大学] 响应code非200（实际：429）
+[21:04:56] [目标：国防科技大学] 提取完成，共1个serviceName（已追加到文件）
+[21:05:18] [目标：西北农林科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8C%97%E5%86%9C%E6%9E%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:05:18] [目标：西北农林科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:05:18] [目标：西北农林科技大学] 响应code非200（实际：429）
+[21:05:18] [目标：西北农林科技大学] 提取完成，共1个serviceName（已追加到文件）
+[21:05:39] [目标：山东科技大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B1%B1%E4%B8%9C%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:05:40] [目标：山东科技大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:05:40] [目标：山东科技大学] 响应code非200（实际：429）
+[21:05:40] [目标：山东科技大学] 提取完成，共1个serviceName（已追加到文件）
+[21:06:01] [目标：广东省深圳市教育局] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" --max-time 60
+[21:06:01] [目标：广东省深圳市教育局] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:06:01] [目标：广东省深圳市教育局] 响应code非200（实际：429）
+[21:06:01] [目标：广东省深圳市教育局] 提取完成，共1个serviceName（已追加到文件）
+[21:06:22] [目标：重庆机电职业技术大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%87%8D%E5%BA%86%E6%9C%BA%E7%94%B5%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:06:23] [目标：重庆机电职业技术大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:06:23] [目标：重庆机电职业技术大学] 响应code非200（实际：429）
+[21:06:23] [目标：重庆机电职业技术大学] 提取完成，共1个serviceName（已追加到文件）
+[21:06:44] [目标：淮南师范学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B7%AE%E5%8D%97%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2" --max-time 60
+[21:06:45] [目标：淮南师范学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:06:45] [目标：淮南师范学院] 响应code非200（实际：429）
+[21:06:45] [目标：淮南师范学院] 提取完成，共1个serviceName（已追加到文件）
+[21:07:06] [目标：重庆工程学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E9%87%8D%E5%BA%86%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2" --max-time 60
+[21:07:07] [目标：重庆工程学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:07:07] [目标：重庆工程学院] 响应code非200（实际：429）
+[21:07:07] [目标：重庆工程学院] 提取完成，共1个serviceName（已追加到文件）
+[21:07:28] [目标：CERNET] 执行命令：curl "http://43.138.145.195:16181/query/app?search=CERNET" --max-time 60
+[21:07:28] [目标：CERNET] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:07:28] [目标：CERNET] 响应code非200（实际：429）
+[21:07:28] [目标：CERNET] 提取完成，共1个serviceName（已追加到文件）
+[21:07:50] [目标：湖北师范大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:07:50] [目标：湖北师范大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:07:50] [目标：湖北师范大学] 响应code非200（实际：429）
+[21:07:50] [目标：湖北师范大学] 提取完成，共1个serviceName（已追加到文件）
+[21:08:11] [目标：安徽工程大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%AE%89%E5%BE%BD%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:08:11] [目标：安徽工程大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:08:11] [目标：安徽工程大学] 响应code非200（实际：429）
+[21:08:11] [目标：安徽工程大学] 提取完成，共1个serviceName（已追加到文件）
+[21:08:32] [目标：浙江中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:08:32] [目标：浙江中医药大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:08:32] [目标：浙江中医药大学] 响应code非200（实际：429）
+[21:08:32] [目标：浙江中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[21:08:53] [目标：东华理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%9C%E5%8D%8E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:08:53] [目标：东华理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:08:53] [目标：东华理工大学] 响应code非200（实际：429）
+[21:08:53] [目标：东华理工大学] 提取完成，共1个serviceName（已追加到文件）
+[21:09:14] [目标：西南石油大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E8%A5%BF%E5%8D%97%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:09:14] [目标：西南石油大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:09:14] [目标：西南石油大学] 响应code非200（实际：429）
+[21:09:14] [目标：西南石油大学] 提取完成，共1个serviceName（已追加到文件）
+[21:09:35] [目标：温州医科大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B8%A9%E5%B7%9E%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:09:36] [目标：温州医科大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:09:36] [目标：温州医科大学] 响应code非200（实际：429）
+[21:09:36] [目标：温州医科大学] 提取完成，共1个serviceName（已追加到文件）
+[21:09:57] [目标：北京中医药大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:09:58] [目标：北京中医药大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:09:58] [目标：北京中医药大学] 响应code非200（实际：429）
+[21:09:58] [目标：北京中医药大学] 提取完成，共1个serviceName（已追加到文件）
+[21:10:20] [目标：湖南农业大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B9%96%E5%8D%97%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:10:20] [目标：湖南农业大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:10:20] [目标：湖南农业大学] 响应code非200（实际：429）
+[21:10:20] [目标：湖南农业大学] 提取完成，共1个serviceName（已追加到文件）
+[21:10:41] [目标：河南经贸职业学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B2%B3%E5%8D%97%E7%BB%8F%E8%B4%B8%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2" --max-time 60
+[21:10:42] [目标：河南经贸职业学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:10:42] [目标：河南经贸职业学院] 响应code非200（实际：429）
+[21:10:42] [目标：河南经贸职业学院] 提取完成，共1个serviceName（已追加到文件）
+[21:11:02] [目标：枣庄学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%9E%A3%E5%BA%84%E5%AD%A6%E9%99%A2" --max-time 60
+[21:11:03] [目标：枣庄学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:11:03] [目标：枣庄学院] 响应code非200（实际：429）
+[21:11:03] [目标：枣庄学院] 提取完成，共1个serviceName（已追加到文件）
+[21:11:24] [目标：内江师范学院] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E5%86%85%E6%B1%9F%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2" --max-time 60
+[21:11:24] [目标：内江师范学院] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:11:24] [目标：内江师范学院] 响应code非200（实际：429）
+[21:11:24] [目标：内江师范学院] 提取完成，共1个serviceName（已追加到文件）
+[21:11:45] [目标：浙江理工大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E6%B5%99%E6%B1%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:11:45] [目标：浙江理工大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:11:45] [目标：浙江理工大学] 响应code非200（实际：429）
+[21:11:45] [目标：浙江理工大学] 提取完成，共1个serviceName（已追加到文件）
+[21:14:05] [目标：上海交通大学] 执行命令：curl "http://43.138.145.195:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:14:05] [目标：上海交通大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:14:05] [目标：上海交通大学] 响应code非200（实际：429）
+[21:14:05] [目标：上海交通大学] 提取完成，共1个serviceName（已追加到文件）
+[21:16:22] [目标：上海交通大学] 执行命令：curl "http://127.0.0.1:16181/query/app?search=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6" --max-time 60
+[21:16:22] [目标：上海交通大学] 原始响应（前500字符）：{"success": false, "code": 429, "msg": "\u60a8\u76ee\u524d\u8bbf\u95ee\u9891\u6b21\u8fc7\u9ad8[\u8bbf\u95eeip\uff1a43.138.145.195], \u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"}...
+[21:16:22] [目标：上海交通大学] 响应code非200（实际：429）
+[21:16:22] [目标：上海交通大学] 提取完成，共1个serviceName（已追加到文件）

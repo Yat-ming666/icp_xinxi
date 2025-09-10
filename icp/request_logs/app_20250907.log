@@ -1,0 +1,25 @@
+[11:28:42] [目标：中国铁塔股份有限公司] 执行命令：curl -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 60 "http://127.0.0.1:20000/query/app?search=%E4%B8%AD%E5%9B%BD%E9%93%81%E5%A1%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+[11:28:43] [目标：中国铁塔股份有限公司] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 8, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4115834, "mainLicence": "\u4eacICP\u590714039488\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u4eacICP\u590714039488\u53f7-15A", "serviceName": "\u94c1\u5854\u89c6\u8054", "serviceType": 6, "unitName": "\u4e2d\u56fd\u94c1\u5854\u80a1\u4efd\u6709\u9650\u516c\u53f8", "updateRecordTim...
+[11:28:43] [目标：中国铁塔股份有限公司] 有效list长度：9
+[11:28:43] [目标：中国铁塔股份有限公司] 提取统计：有效9个，无效0个
+[11:28:43] [目标：中国铁塔股份有限公司] 提取完成，共9个serviceName（已追加到文件）
+[11:30:13] [目标：中国铁塔股份有限公司] 执行命令：curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 60 "http://127.0.0.1:20000/query/app?search=%E4%B8%AD%E5%9B%BD%E9%93%81%E5%A1%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+[11:30:13] [目标：中国铁塔股份有限公司] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 8, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4115834, "mainLicence": "\u4eacICP\u590714039488\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u4eacICP\u590714039488\u53f7-15A", "serviceName": "\u94c1\u5854\u89c6\u8054", "serviceType": 6, "unitName": "\u4e2d\u56fd\u94c1\u5854\u80a1\u4efd\u6709\u9650\u516c\u53f8", "updateRecordTim...
+[11:30:13] [目标：中国铁塔股份有限公司] 有效list长度：9
+[11:30:13] [目标：中国铁塔股份有限公司] 提取统计：有效9个，无效0个
+[11:30:13] [目标：中国铁塔股份有限公司] 提取完成，共9个serviceName（已追加到文件）
+[11:37:53] [目标：中国铁塔股份有限公司] 执行命令：curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 60 "http://127.0.0.1:20000/query/app?search=%E4%B8%AD%E5%9B%BD%E9%93%81%E5%A1%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+[11:37:53] [目标：中国铁塔股份有限公司] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 8, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4115834, "mainLicence": "\u4eacICP\u590714039488\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u4eacICP\u590714039488\u53f7-15A", "serviceName": "\u94c1\u5854\u89c6\u8054", "serviceType": 6, "unitName": "\u4e2d\u56fd\u94c1\u5854\u80a1\u4efd\u6709\u9650\u516c\u53f8", "updateRecordTim...
+[11:37:53] [目标：中国铁塔股份有限公司] 有效list长度：9
+[11:37:53] [目标：中国铁塔股份有限公司] 提取统计：有效9个，无效0个
+[11:37:53] [目标：中国铁塔股份有限公司] 提取完成，共9个serviceName（已追加到文件）
+[21:48:31] [目标：中国铁塔股份有限公司] 执行命令：curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 60 "http://127.0.0.1:20000/query/app?search=%E4%B8%AD%E5%9B%BD%E9%93%81%E5%A1%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+[21:48:32] [目标：中国铁塔股份有限公司] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 8, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4115834, "mainLicence": "\u4eacICP\u590714039488\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u4eacICP\u590714039488\u53f7-15A", "serviceName": "\u94c1\u5854\u89c6\u8054", "serviceType": 6, "unitName": "\u4e2d\u56fd\u94c1\u5854\u80a1\u4efd\u6709\u9650\u516c\u53f8", "updateRecordTim...
+[21:48:32] [目标：中国铁塔股份有限公司] 有效list长度：9
+[21:48:32] [目标：中国铁塔股份有限公司] 提取统计：有效9个，无效0个
+[21:48:32] [目标：中国铁塔股份有限公司] 提取完成，共9个serviceName（已追加到文件）
+[22:20:14] [目标：中国铁塔股份有限公司] 执行命令：curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" --connect-timeout 10 --max-time 60 "http://127.0.0.1:20000/query/app?search=%E4%B8%AD%E5%9B%BD%E9%93%81%E5%A1%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+[22:20:14] [目标：中国铁塔股份有限公司] 原始响应（前500字符）：{"code": 200, "msg": "\u64cd\u4f5c\u6210\u529f", "params": {"endRow": 8, "hasNextPage": false, "hasPreviousPage": false, "isFirstPage": true, "isLastPage": true, "list": [{"contentTypeName": "", "dataId": 4115834, "mainLicence": "\u4eacICP\u590714039488\u53f7", "natureName": "\u4f01\u4e1a", "serviceLicence": "\u4eacICP\u590714039488\u53f7-15A", "serviceName": "\u94c1\u5854\u89c6\u8054", "serviceType": 6, "unitName": "\u4e2d\u56fd\u94c1\u5854\u80a1\u4efd\u6709\u9650\u516c\u53f8", "updateRecordTim...
+[22:20:14] [目标：中国铁塔股份有限公司] 有效list长度：9
+[22:20:14] [目标：中国铁塔股份有限公司] 提取统计：有效9个，无效0个
+[22:20:14] [目标：中国铁塔股份有限公司] 提取完成，共9个serviceName（已追加到文件）
