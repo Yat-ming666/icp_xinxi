@@ -45,7 +45,7 @@ def get_target_file_input():
         return file_path, targets
 
 
-def build_curl_command(resource_type, search_keyword, base_url="http://127.0.0.1:20000/query"):
+def build_curl_command(resource_type, search_keyword, base_url="http://127.0.0.1:16181/query"):
     """修改：curl命令添加随机UA头"""
     encoded_keyword = urllib.parse.quote(search_keyword, safe='')
     url = f"{base_url}/{resource_type}?search={encoded_keyword}&pageSize=1000"
